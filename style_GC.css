@@ -1,0 +1,103 @@
+/* Module */
+.nav-header {
+  position: relative;
+  height: 50px;
+}
+.nav-header a {
+  float: left;
+}
+.nav-header img {
+  margin: 17px 0 0 25px;
+  width: 16px;
+  height: 16px;
+  background-color: blue;
+}
+.nav-header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: #af0010;
+  font-weight: 700;
+}
+
+/* Profile */
+#main {
+  padding: 26px 0 0 0;
+  height: calc(100vh - 126px);
+  background-color: #e5e5e5;
+}
+
+.box-profile {
+  margin: 0 auto;
+  width: 311px;
+}
+.box-title {
+  margin: 0 0 11px 0;
+  height: 22px;
+}
+.box-title img {
+  margin: 0 8px 0 0;
+  width: 22px;
+  height: 22px;
+  background-color: blue;
+}
+.box-title h1 {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 26px;
+  vertical-align: top;
+}
+
+.box-info {
+  margin: 0 0 15px 0;
+  padding: 24px 0 0 28px;
+  height: 109px;
+  background-color: #132b31;
+  border-radius: 24px;
+  color: white;
+}
+.box-info h2 {
+  margin: 0 0 16px 0;
+  font-size: 17px;
+  font-weight: 700;
+}
+.box-info p {
+  font-size: 16px;
+}
+
+.box-btns {
+  text-align: right;
+}
+.box-btns button {
+  width: 75px;
+  height: 27px;
+  border: 0;
+  border-radius: 13px;
+  color: #ffffff;
+}
+.btn-profile-quit {
+  background-color: #af0010;
+}
+.btn-profile-alt {
+  background-color: #132b31;
+}
+
+#footer {
+  padding: 14px 0 0;
+  height: 36px;
+  text-align: center;
+}
+#footer a {
+  margin: 14px 40px 0;
+}
+#footer img {
+  width: 22px;
+  height: 22px;
+  background-color: lightblue;
+}
+
+/* Post */
+
+/* Detail */
