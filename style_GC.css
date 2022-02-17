@@ -3,11 +3,11 @@
   position: relative;
   height: 50px;
 }
-.nav-header a {
+.btn-header-back {
+  margin: 17px 0 0 25px;
   float: left;
 }
 .nav-header img {
-  margin: 17px 0 0 25px;
   width: 16px;
   height: 16px;
   background-color: blue;
@@ -20,6 +20,18 @@
   font-size: 18px;
   color: #af0010;
   font-weight: 700;
+}
+.btn-header-save {
+  margin: 13px 19px 0 0;
+  float: right;
+  width: 66px;
+  height: 26px;
+  background-color: #af0010;
+  border-radius: 14px;
+  color: #ffffff;
+  line-height: 26px;
+  text-align: center;
+  text-decoration: none;
 }
 
 /* Profile */
@@ -99,5 +111,91 @@
 }
 
 /* Post */
+.wrap-post {
+  margin: 0 auto;
+  padding: 17px 24px 0 30px;
+  width: 257px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.wrap-post h3 {
+  margin: 0 0 15px;
+  color: rgba(175, 0, 16, 0.5);
+  font-size: 14px;
+  text-align: right;
+}
 
-/* Detail */
+.text-today {
+  margin: 0 0 8px 9px;
+  color: rgba(19, 43, 49, 0.5);
+  font-size: 14px;
+}
+
+.text-title {
+  margin: 0 0 19px 9px;
+  padding: 0 0 9px;
+  width: 235px;
+  border: none;
+  border-bottom: 0.5px solid #af0010;
+  font-size: 18px;
+}
+
+.wrap-post label::before {
+  position: absolute;
+  transform: translateX(-25px);
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  content: '';
+}
+.wrap-post label {
+  display: block;
+  margin: 0 0 12px 26px;
+  font-weight: 700;
+}
+.wrap-post label select {
+  text-align: center;
+  -o-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.mod-style-box {
+  height: 31px;
+  background-color: #efefef;
+  border: none;
+  border-radius: 24px;
+  font-size: 16px;
+}
+.mod-posit-box1 {
+  width: 101px;
+}
+.mod-posit-box2 {
+  display: block;
+  margin: 9px 0 0;
+  width: 242px;
+  transform: translateX(-25px);
+}
+
+.text-explain {
+  margin: 0 0 13px;
+  width: 251px;
+  font-size: 14px;
+  color: #cacaca;
+}
+
+.btn-finish {
+  margin: 0 0 29px;
+  width: 66px;
+  height: 26px;
+  background-color: #132B31;
+  border: none;
+  border-radius: 14px;
+  color: #ffffff;
+  font-size: 16px;
+
+}
+
+/* Detail
