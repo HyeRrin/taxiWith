@@ -4,68 +4,65 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./reset.css" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="/reset.css" />
+    <link rel="stylesheet" href="/style_HR.css" />
     <title>택함</title>
   </head>
-  <body>
-    <header>
-      <h1><img src="" alt="택함 로고"></h1>
+  <body id="index">
+    <header class="header-section">
+      <h1 class="tit-name">택함</h1>
     </header>
-  
+
     <main>
-      <section>
-        <article>
-          <h2>제목을 입력해주세요.</h2>
-  
+      <article class="box-cont">
+        <div>
+          <h2 class="tit-cont">제목을 입력해주세요.</h2>
           <div>
-            <h3>세부내용</h3>
-            <dl>
-              <!-- icon은 가상요소로 빼줄 것 -->
-              <dt>출발시간</dt> 
-              <dd>16:30</dd>
-    
-              <dt>출발지</dt>
-              <dd>서울역</dd>
-    
-              <dt>목적지</dt>
-              <dd>택함대학교</dd>
+            <h3 class="txt-hide">세부내용</h3>
+            <dl class="section-cont">
+              <div class="wrap-depart">
+                <dt class="tit-depart">출발시간</dt>
+                <dd class="desc-depart">16:30</dd>
+              </div>
+
+              <div class="wrap-start">
+                <dt class="tit-start">출&nbsp&nbsp발&nbsp&nbsp지</dt>
+                <dd class="desc-start">서울역</dd>
+              </div>
+
+              <div class="wrap-destin">
+                <dt class="tit-destin">목&nbsp&nbsp적&nbsp&nbsp지</dt>
+                <dd class="desc-destin">택함대학교</dd>
+              </div>
             </dl>
           </div>
-  
-          <div>
-            <h3>신청현황</h3>
-            <div></div>
-          </div>
-        </article>
-        <article>
-          <p>하단바의 &nbsp&nbsp 버튼을 눌러<br>모집글을 작성해주세요</p>
-        </article>
-      </section>
+        </div>
+        <div class="wrap-apply">
+          <h3 class="txt-hide">신청현황</h3>
+          <p class="txt-apply">0명 / 3명</p>
+        </div>
+      </article>
+
+      <article class="wrap-new">
+        <p class="txt-new">
+          하단바의<img class="img-add" src="/src/icons/add.png" />버튼을 눌러<br />모집글을
+          작성해주세요
+        </p>
+      </article>
     </main>
-  
-    <footer>
-      <a href=""><img src="./icon/lock.png" alt="로그인"></a>
-      <a href=""><img src="./icon/logout2.png" alt="로그아웃"></a>
-      <a href=""><img src="./icon/add.png" alt="게시물 작성"></a>
-      <a href=""><img src="./icon/user.png" alt="프로필"></a>
+
+    <footer class="footer">
+      <a class="icon-login" href=""><img src="/src/icons/lock.png" alt="로그인" /></a>
+      <a class="icon-write" href=""><img src="/src/icons/add.png" alt="게시물 작성" /></a>
+      <a class="icon-profile" href=""><img src="/src/icons/user.png" alt="프로필" /></a>
     </footer>
-  
-    <div>
-      <div>
-        <p>로그인 하시겠습니까?</p>
-        <button>예</button>
-        <button>아니요</button>
-      </div>
-    </div>
-  
-    <div>
-      <div>
-        <p>로그아웃 하시겠습니까?</p>
-        <button>예</button>
-        <button>아니요</button>
+
+    <div class="bg-modal">
+      <div class="box-modal">
+        <p class="txt-login">로그인 하시겠습니까?</p>
+        <button class="btn-yes">예</button>
+        <button class="btn-no">아니요</button>
       </div>
     </div>
   </body>
-  
 </html>
