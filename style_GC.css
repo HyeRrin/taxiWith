@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Pretendard';
+  src: url('/src/font/Pretendard-Regular.otf') format('truetype');
+}
 /* Module */
 .nav-header {
   position: relative;
@@ -10,7 +14,6 @@
 .nav-header img {
   width: 16px;
   height: 16px;
-  background-color: blue;
 }
 .nav-header h1 {
   position: absolute;
@@ -18,8 +21,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 18px;
-  color: #af0010;
-  font-weight: 700;
 }
 .btn-header-save {
   margin: 13px 19px 0 0;
@@ -36,64 +37,67 @@
 
 /* Profile */
 #main {
-  padding: 26px 0 0 0;
-  height: calc(100vh - 126px);
-  background-color: #e5e5e5;
+  padding: 50px 0 0 0;
+  height: calc(100vh - 150px);
+  background-color: #fff8e1;
+  font-family: 'Pretendard';
 }
 
 .box-profile {
+  position: relative;
   margin: 0 auto;
   width: 311px;
 }
-.box-title {
-  margin: 0 0 11px 0;
-  height: 22px;
+.box-profile img {
+  position: absolute;
+  top: -28px;
+  left: 30px;
+  width: 57px;
 }
-.box-title img {
-  margin: 0 8px 0 0;
-  width: 22px;
-  height: 22px;
-  background-color: blue;
-}
-.box-title h1 {
-  display: inline-block;
-  font-size: 18px;
-  line-height: 26px;
-  vertical-align: top;
-}
-
 .box-info {
   margin: 0 0 15px 0;
-  padding: 24px 0 0 28px;
+  padding: 24px 0 30px 28px;
   height: 109px;
-  background-color: #132b31;
+  background-color: white;
   border-radius: 24px;
-  color: white;
+  border: 1px solid #81b214;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .box-info h2 {
-  margin: 0 0 16px 0;
+  margin-bottom: 2px;
   font-size: 17px;
-  font-weight: 700;
+  color: #81b214;
 }
-.box-info p {
-  font-size: 16px;
+.txt-desc-name {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #ffcc29;
+}
+.txt-desc-school {
+  padding: 2px;
+  font-size: 14px;
+  color: #81b214;
 }
 
 .box-btns {
-  text-align: right;
+  margin: 7px 20px 0 0;
+  float: right;
 }
 .box-btns button {
   width: 75px;
   height: 27px;
-  border: 0;
   border-radius: 13px;
-  color: #ffffff;
+  background-color: white;
+  font-size: 14px;
+  font-family: 'Pretendard';
 }
 .btn-profile-quit {
-  background-color: #af0010;
+  border: 1px solid #ff1026;
+  color: #ff1026;
 }
 .btn-profile-alt {
-  background-color: #132b31;
+  border: 1px solid #81b214;
+  color: #81b214;
 }
 
 #footer {
