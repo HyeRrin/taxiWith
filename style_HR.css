@@ -57,7 +57,7 @@
 
 /* Main */
 #index {
-  background: rgba(19, 43, 49, 0.31);
+  background-color: #fff8e1;
 }
 .header-section {
   position: fixed;
@@ -77,14 +77,14 @@
   padding-bottom: 12px;
   width: 311px;
   border-radius: 24px;
-  background-color: #132b31;
+  border: 1px solid #ffc50d;
+  background-color: white;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .tit-cont {
   display: inline-block;
   margin: 20px 0 16px 25px;
   font-size: 16px;
-  color: #f2f2f2;
   line-height: 22px;
 }
 .wrap-depart,
@@ -92,14 +92,14 @@
 .wrap-destin {
   display: flex;
   position: relative;
-  margin: 0 0 13px 46px;
+  margin: 0 0 13px 25px;
 }
 .tit-depart,
 .tit-start,
 .tit-destin {
   padding-top: 3px;
   font-size: 14px;
-  color: #f2f2f2;
+  color: #ffc50d;
 }
 .desc-depart,
 .desc-start,
@@ -109,32 +109,10 @@
   left: 67px;
   width: 89px;
   border-radius: 24px;
-  background-color: #af0010;
+  border: 1px solid #ffc50d;
   font-size: 14px;
-  color: #f2f2f2;
   text-align: center;
 }
-.tit-depart::before,
-.tit-start::before,
-.tit-destin::before {
-  position: absolute;
-  top: 3px;
-  left: -22px;
-  width: 16px;
-  height: 16px;
-  background-size: 16px 16px;
-  content: '';
-}
-.tit-depart::before {
-  background-image: url('/src/icons/clock-white.png');
-}
-.tit-start::before {
-  background-image: url('/src/icons/car-white.png');
-}
-.tit-destin::before {
-  background-image: url('/src/icons/location-white.png');
-}
-
 .wrap-apply {
   position: absolute;
   float: right;
@@ -143,13 +121,12 @@
   width: 69px;
   height: 69px;
   border-radius: 50%;
-  background-color: #af0010;
+  background-color: #ffe89e;
   text-align: center;
 }
 .txt-apply {
   padding-top: 27px;
   font-size: 13px;
-  color: #f2f2f2;
 }
 
 /* 빈페이지일 때 */
