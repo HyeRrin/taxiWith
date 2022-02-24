@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'NotoSans';
-  src: url('/src/font/NotoSans-Regular.ttf') format('truetype');
+  font-family: 'Pretendard';
+  src: url('/src/font/Pretendard-Regular.otf') format('truetype');
 }
 #login,
 #index {
-  font-family: 'NotoSans';
+  font-family: 'Pretendard';
 }
 .txt-hide {
   position: absolute;
