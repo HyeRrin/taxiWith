@@ -66,14 +66,9 @@
   background-color: white;
   text-align: center;
 }
-.tit-name {
-  display: inline-block;
-  margin: 0;
-  padding: 15px 0 15px 0;
-  font-size: 18px;
-  color: #af0010;
-  font-weight: bold;
-  font-family: 'NotoSans';
+.header-logo {
+  margin: 10px;
+  width: 57px;
 }
 .box-cont {
   /* display: none; */
@@ -176,7 +171,7 @@
 /* footer */
 .footer {
   position: fixed;
-  padding: 15px 0;
+  padding: 9px 0;
   bottom: 0;
   width: 100%;
   background-color: white;
@@ -185,7 +180,7 @@
 .icon-login img,
 .icon-write img,
 .icon-profile img {
-  width: 20px;
+  width: 16px;
 }
 .icon-login,
 .icon-write,
