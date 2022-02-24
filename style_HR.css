@@ -21,50 +21,14 @@
   text-align: center;
 }
 .img-logo {
-  margin-top: 140px;
+  margin: 140px 0 50px 0;
   width: 200px;
-}
-.tit-desc {
-  margin: 20px 0 10px 0;
-  font-size: 16px;
-  color: #af0010;
-}
-.tit-subname {
-  margin-bottom: 50px;
-  padding: 0;
-  font-size: 30px;
-  color: #af0010;
-  font-weight: bold;
 }
 .section-login {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-.list-kakao {
-  display: inline-block;
-  position: relative;
-  margin-bottom: 25px;
-  padding: 10px;
-}
-.list-kakao::before {
-  position: absolute;
-  bottom: 2px;
-  left: 25px;
-  width: 33px;
-  height: 33px;
-  background-image: url('/src/icons/kakao.png');
-  background-size: 33px 33px;
-  content: '';
-}
-.link-kakao {
-  padding: 10px 47px 10px 61px;
-  border-radius: 15px;
-  background-color: #ffeb3b;
-  font-size: 16px;
-  color: #3c1e1e;
-  text-decoration: none;
 }
 .list-google {
   display: inline-block;
