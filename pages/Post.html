@@ -10,31 +10,34 @@
   </head>
   <body>
     <header class="nav-header">
-      <a href="" class="btn-header-back"><img src="" alt="" /></a>
-      <h1>택함</h1>
-      <a href="" class="btn-header-save">업로드</a>
+      <a href="" class="btn-header-back"><img src="/src/icons/left-arrow.png" alt="" /></a>
+      <h1>글쓰기</h1>
+      <a href="" class="btn-header-save">완료</a>
     </header>
     <main id="main">
       <form action="" class="wrap-post">
         <h3>No. 123456</h3>
         <p class="text-today">2022년 02월 02일</p>
         <input type="text" placeholder="제목을 입력해주세요." class="text-title" />
+        <p class="text-writer">큐티 고양이</p>
         <label class="time-depart">
           출발시간
           <input type="time" class="mod-style-box mod-posit-box1" />
         </label>
-        <label>
-          출발지
-          <select name="" class="mod-style-box mod-posit-box1">
-            <option value="">서울역</option>
-          </select>
-        </label>
-        <label>
-          목적지
-          <select name="" class="mod-style-box mod-posit-box1">
-            <option value="">택함대학교</option>
-          </select>
-        </label>
+        <div class="wrap-part">
+          <label class="place-start">
+            출발지
+            <select name="" class="mod-style-box mod-posit-box1">
+              <option value="">서울역</option>
+            </select>
+          </label>
+          <label>
+            목적지
+            <select name="" class="mod-style-box mod-posit-box1">
+              <option value="">택함대학교</option>
+            </select>
+          </label>
+        </div>
         <label>
           모집인원
           <input type="number" class="mod-style-box mod-posit-box1" />
@@ -43,11 +46,6 @@
           약속장소
           <input type="text" class="mod-style-box mod-posit-box2" />
         </label>
-        <label>
-          인상착의
-          <input type="text" class="mod-style-box mod-posit-box2" />
-        </label>
-        <p class="text-explain">※ 서로를 알아볼 수 있도록 약속장소와 인상착의를 작성해주세요.</p>
       </form>
     </main>
   </body>

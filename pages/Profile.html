@@ -10,30 +10,39 @@
   </head>
   <body>
     <header class="nav-header">
-      <a href=""><img src="" alt="" /></a>
-      <h1>택함</h1>
+      <a href="" class="btn-header-back"
+        ><img src="/src/icons/left-arrow.png" alt="이전 페이지로 되돌아가기"
+      /></a>
+      <h1>프로필</h1>
     </header>
     <main id="main">
       <section class="box-profile">
-        <article class="box-title">
-          <img />
-          <h1>프로필</h1>
-        </article>
+        <img src="/src/icons/logo2.png" alt="택함 로고" />
         <article class="box-info">
-          <h2>장화 신은 고양이</h2>
-          <p>부릉대학교 야옹이과</p>
-          <p>20221729</p>
+          <h2>큐티 고양이</h2>
+          <p class="txt-desc-name">나만의 멋있는 랜덤 닉네임이에요!</p>
+          <p class="txt-desc-school">부릉대학교 야옹이과</p>
+          <p class="txt-desc-school">20221729</p>
+          <form class="box-btns">
+            <button class="btn-profile-quit">탈퇴하기</button>
+            <button class="btn-profile-alt">수정하기</button>
+          </form>
         </article>
-        <form class="box-btns">
-          <button class="btn-profile-quit">탈퇴하기</button>
-          <button class="btn-profile-alt">수정하기</button>
-        </form>
       </section>
     </main>
-    <footer id="footer">
-      <a href=""><img src="" alt="" /></a>
-      <a href=""><img src="" alt="" /></a>
-      <a href=""><img src="" alt="" /></a>
+    <footer class="footer">
+      <a class="icon-login" href="">
+        <img src="/src/icons/lock.png" alt="로그인" />
+        <p>로그인</p>
+      </a>
+      <a class="icon-write" href="">
+        <img src="/src/icons/add.png" alt="게시물 작성" />
+        <p>글쓰기</p>
+      </a>
+      <a class="icon-profile" href="">
+        <img src="/src/icons/user.png" alt="프로필" />
+        <p>프로필</p>
+      </a>
     </footer>
   </body>
 </html>
