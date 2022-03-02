@@ -37,15 +37,16 @@
 
 /* Profile */
 #main {
-  padding: 50px 0 0 0;
-  height: calc(100vh - 150px);
+  padding: 25px 0 0 0;
+  height: 100vh;
+  /* height: calc(100vh - 150px); */
   background-color: #fff8e1;
   font-family: 'Pretendard';
 }
 
 .box-profile {
   position: relative;
-  margin: 0 auto;
+  margin: 25px auto;
   width: 311px;
 }
 .box-profile img {
@@ -115,15 +116,9 @@
 }
 
 /* Post */
-#post {
-  padding: 20px 0 0 0;
-  height: 100vh;
-  background-color: #fff8e1;
-  font-family: 'Pretendard';
-}
 .wrap-post {
   margin: 0 auto;
-  padding: 20px 0 20px 30px;
+  padding: 20px 0 20px 25px;
   width: 300px;
   background-color: #ffffff;
   border-radius: 24px;
@@ -160,11 +155,6 @@
   color: #81b214;
   text-align: right;
 }
-.text-warning {
-  /* display: none; */
-  padding: 8px 0 0;
-  color: #ffcc29;
-}
 .wrap-post label {
   display: block;
   margin: 0 0 35px 0;
@@ -179,14 +169,14 @@
   -moz-appearance: none;
   appearance: none;
 }
-.wrap-place {
+.wrap-part {
   display: flex;
 }
 .place-start {
   padding-right: 10px;
 }
 .mod-style-box {
-  height: 31px;
+  height: 33px;
   border-radius: 10px;
   border: 1px solid #81b214;
   background-color: #ffffff;
@@ -204,7 +194,47 @@
   width: 270px;
   font-family: 'Pretendard';
 }
-.btn-post-finish::before {
+
+/* Detail */
+.wrap-detail h3 {
+  margin: 5px 24px 20px 0;
+  color: #81b214;
+  font-size: 14px;
+  text-align: right;
+}
+
+.wrap-detail {
+  margin: 0 auto;
+  padding: 20px 0 20px 25px;
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.wrap-list {
+  margin: 0 0 35px 0;
+}
+.wrap-list p {
+  display: block;
+  margin: 0 0 0 0;
+  font-size: 14px;
+  color: #81b214;
+}
+.box-interval {
+  margin-right: 10px;
+}
+.btn-finish {
+  display: inline-block;
+  position: relative;
+  margin: 25px 0 10px 0;
+  width: 66px;
+  height: 26px;
+  background-color: #c6dc95;
+  border-radius: 14px;
+  line-height: 26px;
+  text-align: center;
+}
+.btn-finish::before {
   position: absolute;
   top: -19px;
   left: 14px;
@@ -214,80 +244,44 @@
   background-size: 39px 19px;
   content: '';
 }
-.btn-post-finish {
-  position: relative;
-  margin: 20px 0 0;
+.btn-fix {
+  display: inline-block;
+  margin: 25px 0 0 5px;
   width: 66px;
   height: 26px;
-  background-color: #c6dc95;
+  background-color: #ffe89e;
   border-radius: 14px;
-  border-style: none;
-  font-size: 16px;
-  font-family: 'Pretendard';
+  line-height: 26px;
+  text-align: center;
 }
 .text-explain {
-  margin: 10px 0 13px;
-  width: 270px;
+  margin: 0 0 30px 0;
   font-size: 14px;
   color: #ffcc29;
 }
 
-/* Detail */
-.wrap-detail h3 {
-  margin: 0 0 15px;
-  color: rgba(175, 0, 16, 0.5);
+/* footer */
+.footer {
+  position: fixed;
+  padding: 9px 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+.icon-login img,
+.icon-write img,
+.icon-profile img {
+  width: 16px;
+}
+.icon-login,
+.icon-write,
+.icon-profile {
+  display: inline-block;
   font-size: 14px;
-  text-align: right;
+  color: black;
+  text-decoration: none;
 }
-
-.wrap-detail {
-  margin: 0 auto;
-  padding: 17px 24px 0 30px;
-  width: 257px;
-  background-color: #ffffff;
-  border-radius: 24px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.wrap-list {
-  margin: 0 0 10px 0;
-}
-.wrap-list img {
-  width: 25px;
-  height: 25px;
-  background-color: red;
-  border-radius: 50%;
-}
-.wrap-list p {
-  display: inline-block;
-  margin: 0 4px 0;
-  width: 56px;
-  transform: translateY(-50%);
-  font-weight: 700;
-  text-align: center;
-}
-.wrap-list div {
-  display: inline-block;
-  width: 101px;
-  height: 31px;
-  background-color: #efefef;
-  border-radius: 24px;
-}
-.box-list {
-  margin: 0 0 16px;
-  width: 242px;
-  height: 31px;
-  border-radius: 24px;
-  background-color: #efefef;
-}
-
-.btn-finish {
-  display: inline-block;
-  margin: 0 0 29px;
-  width: 66px;
-  height: 26px;
-  background-color: #132b31;
-  border-radius: 14px;
-  color: #ffffff;
-  line-height: 26px;
-  text-align: center;
+.icon-write {
+  margin: 0 80px;
 }
