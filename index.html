@@ -8,70 +8,20 @@
     <link rel="stylesheet" href="/style_HR.css" />
     <title>택함</title>
   </head>
-  <body id="index">
-    <header class="header-section">
-      <h1><img class="header-logo" src="/src/icons/logo2.png" alt="택함 로고" /></h1>
-    </header>
-
-    <main>
-      <article class="box-cont">
-        <div>
-          <h2 class="tit-cont">제목을 입력해주세요.</h2>
-          <div>
-            <h3 class="txt-hide">세부내용</h3>
-            <dl class="section-cont">
-              <div class="wrap-depart">
-                <dt class="tit-depart">출발시간</dt>
-                <dd class="desc-depart">16:30</dd>
-              </div>
-
-              <div class="wrap-start">
-                <dt class="tit-start">출발지</dt>
-                <dd class="desc-start">서울역</dd>
-              </div>
-
-              <div class="wrap-destin">
-                <dt class="tit-destin">목적지</dt>
-                <dd class="desc-destin">택함대학교</dd>
-              </div>
-            </dl>
-          </div>
-        </div>
-        <div class="wrap-apply">
-          <h3 class="txt-hide">신청현황</h3>
-          <p class="txt-apply">0명 / 3명</p>
-        </div>
-      </article>
-
-      <article class="wrap-new">
-        <p class="txt-new">
-          하단바의<img class="img-add" src="/src/icons/add.png" />버튼을 눌러<br />모집글을
-          작성해주세요
-        </p>
-      </article>
-    </main>
-
-    <footer class="footer">
-      <a class="icon-login" href="">
-        <img src="/src/icons/lock.png" alt="로그인" />
-        <p>로그인</p>
-      </a>
-      <a class="icon-write" href="">
-        <img src="/src/icons/add.png" alt="게시물 작성" />
-        <p>글쓰기</p>
-      </a>
-      <a class="icon-profile" href="">
-        <img src="/src/icons/user.png" alt="프로필" />
-        <p>프로필</p>
-      </a>
-    </footer>
-
-    <div class="bg-modal">
-      <div class="box-modal">
-        <p class="txt-login">로그인 하시겠습니까?</p>
-        <button class="btn-yes">예</button>
-        <button class="btn-no">아니요</button>
-      </div>
-    </div>
+  <body id="login">
+    <article>
+      <h1>
+        <img class="img-logo" src="/src/icons/logo.png" alt="택함 로고" />
+      </h1>
+    </article>
+    <article class="wrap-login">
+      <h2 class="txt-hide">소셜계정 로그인</h2>
+      <ul>
+        <li class="list-google">
+          <a class="link-google">구글 계정으로 로그인</a>
+        </li>
+      </ul>
+    </article>
+    <script type="module" src="/modules/Login.js"></script>
   </body>
 </html>
