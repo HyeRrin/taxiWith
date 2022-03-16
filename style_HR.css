@@ -84,50 +84,58 @@
 }
 .tit-cont {
   display: inline-block;
-  margin: 20px 0 16px 25px;
+  margin: 20px 5px 8px 25px;
+  width: 235px;
   font-size: 16px;
   line-height: 22px;
 }
-.wrap-depart,
-.wrap-start,
-.wrap-destin {
+.icon-more {
+  width: 19px;
+}
+.wrap-desc {
   display: flex;
-  position: relative;
-  margin: 0 0 13px 25px;
+  align-items: center;
+  justify-content: center;
+}
+.wrap-desc-part1 {
+  margin-right: 18px;
 }
 .tit-depart,
 .tit-start,
-.tit-destin {
-  padding-top: 3px;
-  font-size: 14px;
+.tit-people,
+.tit-destin,
+.tit-place {
+  margin-top: 8px;
+  padding-bottom: 3px;
+  font-size: 12px;
   color: #ffc50d;
 }
 .desc-depart,
 .desc-start,
-.desc-destin {
-  position: absolute;
-  padding: 4px 0;
+.desc-destin,
+.des-people {
+  padding: 6px 0;
   left: 67px;
-  width: 89px;
-  border-radius: 24px;
-  border: 1px solid #ffc50d;
+  width: 120px;
+  border-radius: 7px;
+  background-color: #ffe89e;
   font-size: 14px;
   text-align: center;
 }
-.wrap-apply {
-  position: absolute;
-  float: right;
-  top: 20px;
-  right: 20px;
-  width: 69px;
-  height: 69px;
-  border-radius: 50%;
-  background-color: #ffe89e;
-  text-align: center;
+.wrap-place {
+  display: block;
+  margin: 0 auto;
+  width: 260px;
 }
-.txt-apply {
-  padding-top: 27px;
-  font-size: 13px;
+.desc-place {
+  margin: 0 0 10px 0;
+  padding: 6px 6px;
+  left: 67px;
+  box-sizing: border-box;
+  width: 260px;
+  border-radius: 7px;
+  border: 1px solid #ffc50d;
+  font-size: 14px;
 }
 
 /* 빈페이지일 때 */
