@@ -9,12 +9,15 @@ const db = getFirestore();
 
 const $btnBack = document.querySelector('.btn-header-back');
 const $btnSave = document.querySelector('.btn-header-save');
+const $txtToday = document.querySelector('.text-today');
 const $inpTitle = document.querySelector('.text-title');
 const $inpTime = document.querySelector('.time-depart input');
 const $inpPlaceStart = document.querySelector('.place-start input');
 const $inpPlaceEnd = document.querySelector('.place-end input');
 const $inpNumMax = document.querySelector('.num-maximum input');
 const $inpPlaceAssem = document.querySelector('.place-assemble input');
+
+const today = new Date();
 
 $btnBack.addEventListener('click', function (e) {
   e.preventDefault();
@@ -33,3 +36,7 @@ $btnSave.addEventListener('click', async function (e) {
   });
   window.location.href = './Main.html';
 });
+
+$txtToday.innerText = `${today.getFullYear()}년 ${
+  today.getMonth() > 8 ? today.getMonth() + 1 : '0' + (today.getMonth() + 1)
+}월 ${today.getDate() > 9 ? today.getDate() : '0' + today.getDate()}일`;
